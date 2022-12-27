@@ -572,7 +572,6 @@ h3.my-profession {
 .about .about-content .timeline .timeline-text {
   line-height: 25px;
   font-size: 16px;
-  text-align: justify;
   margin-right: 10px;
   color: var(--text-black-700);
 }
@@ -752,6 +751,9 @@ h3.my-profession {
   }
   .home .home-img{
     display: none;
+  }
+  .personal-info .info-item p {
+    word-wrap: break-word;
   }
 }
 
