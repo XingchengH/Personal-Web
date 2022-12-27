@@ -664,6 +664,7 @@ h3.my-profession {
   line-height: 25px;
   color: var(--text-black-700);
   font-weight: 400;
+  word-wrap: break-word;
 }
 
 .contact .contact-form {
