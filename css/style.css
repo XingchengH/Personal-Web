@@ -612,6 +612,7 @@ h3.my-profession {
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
+  height: 95%;
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img {
