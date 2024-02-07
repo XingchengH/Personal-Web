@@ -188,16 +188,60 @@ ul {
 .aside .logo a {
   color: var(--text-black-900);
   font-weight: 700;
-  padding: 15px 20px;
+  padding: 15px 25px;
   font-size: 30px;
-  letter-spacing: 5px;
   position: relative;
 }
 
 .aside .logo a span {
+  text-transform: lowercase;
+  color: var(--text-black-900);
+  animation: colorChange 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes colorChange {
+  100% {
+    color: #2bcee4;
+  }
+}
+
+.aside .logo a span:first-child {
   font-family: "Clicker Script", cursive;
   font-size: 40px;
+  text-transform: capitalize; 
 }
+
+/* sass */
+/* @for $i from 1 through 7 {
+  .aside .logo a span:nth-child(#{$i}) {
+    animation-delay: ($i - 1) * 0.2;
+  }
+} */
+
+.aside .logo a span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.aside .logo a span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.aside .logo a span:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.aside .logo a span:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+.aside .logo a span:nth-child(6) {
+  animation-delay: 1s;
+}
+
+.aside .logo a span:nth-child(7) {
+  animation-delay: 1.2s;
+}
+
 
 .aside .logo a::before {
   content: "";
