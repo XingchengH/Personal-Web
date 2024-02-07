@@ -32,6 +32,19 @@
     border-radius: 50%;
 }
 
+.style-switcher .style-switcher-toggler .fa-spin {
+    animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .style-switcher .s-icon i {
     line-height: 40px;
 }
